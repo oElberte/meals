@@ -6,52 +6,52 @@ import '../models/meal.dart';
 const dummyCategories = [
   Category(
     id: 'c1',
-    title: 'Italiano',
+    title: 'Italian',
     color: Colors.purple,
   ),
   Category(
     id: 'c2',
-    title: 'Rápido & fácil',
+    title: 'Quick & easy',
     color: Colors.red,
   ),
   Category(
     id: 'c3',
-    title: 'Hambúrguers',
+    title: 'Burger',
     color: Colors.orange,
   ),
   Category(
     id: 'c4',
-    title: 'Alemã',
+    title: 'German',
     color: Colors.amber,
   ),
   Category(
     id: 'c5',
-    title: 'Leve & saudável',
+    title: 'Light & healthy',
     color: Colors.brown,
   ),
   Category(
     id: 'c6',
-    title: 'Exótica',
+    title: 'Exotic',
     color: Colors.green,
   ),
   Category(
     id: 'c7',
-    title: 'Café da manhã',
+    title: 'Breakfast',
     color: Colors.lightBlue,
   ),
   Category(
     id: 'c8',
-    title: 'Asiática',
+    title: 'Asian',
     color: Colors.lightGreen,
   ),
   Category(
     id: 'c9',
-    title: 'Francesa',
+    title: 'French',
     color: Colors.pink,
   ),
   Category(
     id: 'c10',
-    title: 'Verão',
+    title: 'Summer',
     color: Colors.teal,
   ),
 ];
