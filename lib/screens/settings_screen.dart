@@ -22,6 +22,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     settings = widget.settings;
   }
 
+  //This method creates the switch for showing foods only based on the user preference
   Widget _createSwitch(
     String title,
     String subtitle,

@@ -6,19 +6,12 @@ class MealItem extends StatelessWidget {
   final Meal meal;
   const MealItem(this.meal, {Key? key}) : super(key: key);
 
+  //This method push the meal details screen
   void _selectMeal(BuildContext context) {
-    Navigator.of(context)
-        .pushNamed(
+    Navigator.of(context).pushNamed(
       AppRoutes.mealDetail,
       arguments: meal,
-    )
-        .then((result) {
-      if (result == null) {
-        print('Sem retorno');
-      } else {
-        print('$result');
-      }
-    });
+    );
   }
 
   @override

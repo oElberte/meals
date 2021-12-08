@@ -12,6 +12,7 @@ class CategoriesMealsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final category = ModalRoute.of(context)?.settings.arguments as Category;
 
+    //This method filters meals to be shown in each category
     final categoryMeals = meals.where((meal) {
       return meal.categories.contains(category.id);
     }).toList();
